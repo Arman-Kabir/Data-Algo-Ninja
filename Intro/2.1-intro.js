@@ -17,6 +17,8 @@ function sumUpTo(num) {
 const total = sumUpTo(10);
 console.log(total);
 
-
+// Data is organized
+// steps to follow to access is not as easy as you think
+// saving milliseconds counts!
 
 
