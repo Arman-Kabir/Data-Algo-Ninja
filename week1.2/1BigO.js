@@ -7,7 +7,7 @@
 
 
 // linear or ... Big O - O(n) === in case of one loop
-// Bog(O) = O(n^2) === in case of two loops
+// quadratic Big(O) = O(n^2) === in case of two loops
 // 2n = O(n)  === in case of j<2
 // function log(n) {
 //     count = 0;
@@ -25,55 +25,67 @@
 
 
 // O(n)+O(n) = O(2n) = O(n)
-function log(n) {
-    let count = 0;
-    for (let i = 0; i < n; i++) {
-        count++;
-        console.log(i);
-    }
-    for (let i = 0; i < n; i++) {
-        count++;
-        console.log(i);
-    }
-    console.log(count);
-}
-log(5);
+// function log(n) {
+//     let count = 0;
+//     for (let i = 0; i < n; i++) {
+//         count++;
+//         console.log(i);
+//     }
+//     for (let i = 0; i < n; i++) {
+//         count++;
+//         console.log(i);
+//     }
+//     console.log(count);
+// }
+// log(5);
 
 //*** */ O(n*n*n) - O(n^3)
-function log(n) {
-    let count = 0;
-    for (let i = 0; i < n; i++) {
-        for (let j = 0; j < n; j++) {
-            for (let k = 0; k < n; k++) {
-                count++;
-                console.log(i,j,k);
-            }
-        }
-    }
+// function log(n) {
+//     let count = 0;
+//     for (let i = 0; i < n; i++) {
+//         for (let j = 0; j < n; j++) {
+//             for (let k = 0; k < n; k++) {
+//                 count++;
+//                 console.log(i,j,k);
+//             }
+//         }
+//     }
 
-    console.log(count);
-}
-log(2);
+//     console.log(count);
+// }
+// log(2);
 
 
 //*** */  O(n^2+n) - O(n^2)
-function log(n) {
-    let count = 0;
-    for (let i = 0; i < n; i++) {
-        for (let j = 0; j < n; j++) {
-            
-                count++;
-                console.log(i,j);
-            
-        }
-    }
+// function log(n) {
+//     let count = 0;
+//     for (let i = 0; i < n; i++) {
+//         for (let j = 0; j < n; j++) {
 
-    for (let k = 0; k < n; k++) {
-        count++;
-        console.log(k);
-    }
+//                 count++;
+//                 console.log(i,j);
 
-    console.log(count);
-}
-log(2);
+//         }
+//     }
+
+//     for (let k = 0; k < n; k++) {
+//         count++;
+//         console.log(k);
+//     }
+
+//     console.log(count);
+// }
+// log(2);
+
+
+
+// Big(O) - O(1) - constant
+// function addItems(n) {
+//     console.log(n + n + n);
+// }
+// addItems(20);
+
+
+
+
 
