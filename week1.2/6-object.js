@@ -2,8 +2,29 @@
 // other programming languages call it hashmaps, but js call it objects.
 
 const obj = {
-    name:"samim",
-    '1email':"samimfazlu@gmail.com"
+    name: "samim",
+    email: "samimfazlu@gmail.com"
+}
+
+// accessing element --- O(1)
+console.log(obj.name);
+
+// adding element --- O(1)
+obj.profession = 'programmer';
+console.log(obj);
+
+// delete element --- O(1)
+delete obj.profession;
+console.log(obj);
+
+
+// searching O(1)
+console.log('email' in  obj);
+
+// searching O(n)
+for (let key in obj) {
+    console.log(obj[key])
+    console.log(key);
 }
 
 console.log(obj.name);

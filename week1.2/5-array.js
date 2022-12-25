@@ -40,6 +40,9 @@ console.log(arr);
 // forEach,map,filter,reduce,slice,splice   --- O(n) . Loop runs in these methods and studies step by step.
 
 
+const arr2 = ['a', 'b', 'c',['d','e']];
+//             0    1    2    3[0,1]
+console.log(arr2[3][1]);
 
 
 
