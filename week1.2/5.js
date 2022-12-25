@@ -37,8 +37,10 @@ for (let elm of arr) {
 
 console.log(arr);
 
-
-
 // forEach,map,filter,reduce,slice,splice   --- O(n) . Loop runs in these methods and studies step by step.
+
+
+
+
 
 
