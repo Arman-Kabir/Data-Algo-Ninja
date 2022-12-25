@@ -15,7 +15,7 @@
  * critically (you don't need to write this code,just speak about it)
  *  
  * 
- * *****4. Tell them why this approach is not the best
+ * *****4. Tell them why this approach is not the best(i.e: O(n^2) or higher, not readable, etc...)
  * 
  * *****5. Walk through your approach, comment things and see where you may be able to break things
  * 
@@ -26,6 +26,9 @@
  *  
  * 
  * *****8. start coding. (simplify as necessary)
+ * 
+ * *****9. can you write it better in terms of readability, time and space complexity?
+ * 
  */
 
 
