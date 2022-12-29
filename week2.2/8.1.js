@@ -4,3 +4,6 @@
 // then, weekly 4*3=12 problems. In a month 48-50 problems. In 3 months 50*3 =at least  150 problems.
 // Insha allah
 
+// Data-Algo is all about concepts
+
+
