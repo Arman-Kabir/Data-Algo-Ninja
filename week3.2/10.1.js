@@ -4,6 +4,7 @@
 // nested loop - O(n^2).
 
 // linear search
+
 // time complexity Big O ---O(n) 
 // space complexity Big O --- O(1)
 function searchElmIndex(arr, searchElm) {
