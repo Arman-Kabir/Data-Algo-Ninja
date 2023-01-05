@@ -15,7 +15,7 @@
 
 
 function twoSum(nums, target) {
-    let hashTable = {}
+    let hashTable = {} 
     for (let i = 0; i < nums.length; i++) {
         const want = target - nums[i];
         if (want in hashTable) {
