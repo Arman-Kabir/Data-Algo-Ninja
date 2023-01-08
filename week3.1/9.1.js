@@ -1,5 +1,6 @@
 // Nested loops make O(n^2). To make it efficient O(n) -- we use hashTable.
 
+// We now doing using two pointer
 // sumZero
 
 function sumZero(arr) {
