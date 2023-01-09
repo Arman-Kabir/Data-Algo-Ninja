@@ -34,34 +34,66 @@
 
 
 
-// Brute-Force-
-function maxSubArraySum(arr, num) {
-    if (arr.length < num) {
-        return null;
-    }
-    let max = -Infinity;
+// Brute-Force- proper soln
+// function maxSubArraySum(arr, num) {
+//     if (arr.length < num) {
+//         return null;
+//     }
+//     let max = -Infinity;
 
-    console.log(arr.length - num + 1);
-    for (let i = 0; i < arr.length - num + 1; i++) {
-        let tempSum = 0;
-        for (let j = 0; j < num; j++) {
-            // console.log(arr[i + j]);
-            tempSum += arr[i + j];
-        }
-        max = Math.max(tempSum, max);
-        console.log(tempSum);
-    }
-    return max;
-}
-console.log(maxSubArraySum([1, 2, 5, 2, 8, 1, 5], 2));
-
-
+//     console.log(arr.length - num + 1);
+//     for (let i = 0; i < arr.length - num + 1; i++) {
+//         let tempSum = 0;
+//         for (let j = 0; j < num; j++) {
+//             // console.log(arr[i + j]);
+//             tempSum += arr[i + j];
+//         }
+//         max = Math.max(tempSum, max);
+//         console.log(tempSum);
+//     }
+//     return max;
+// }
+// console.log(maxSubArraySum([1, 2, 5, 2, 8, 1, 5], 2));
 
 /*
 1+2=3
 2+5=7
 5+2=7
 2+8=10
+*/
 
 
-*/ 
+// efficient soln
+function maxSubArraySum(arr, num) {
+    if (arr.length < num) {
+        return null;
+    }
+    let max = -Infinity;
+    let tempSum = 0;
+
+    for (let i = 0; i < num; i++) {
+        max += arr[i];
+    }
+    tempSum = max;
+    for (let j = num; j < arr.length; j++) {
+        tempSum - tempSum[j - num] + arr[j];
+        maxSum = Math.max()
+        
+    }
+    console.log(tempSum);
+
+}
+console.log(maxSubArraySum([1, 2, 5, 2, 8, 1, 5], 2));
+
+/**
+ * 1+2=3
+ * 3-1+5=7
+ * 7-2+2=7
+ * 7-5+8=10
+ * 10-2+1=9
+ * 9-8+5=6
+ * 
+ */
+
+
+
